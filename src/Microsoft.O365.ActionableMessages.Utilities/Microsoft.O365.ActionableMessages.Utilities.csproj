@@ -15,7 +15,15 @@
     <PackageLicenseUrl>https://github.com/OfficeDev/o365-actionable-messages-utilities-for-dotnet/blob/master/LICENSE</PackageLicenseUrl>
     <PackageIconUrl>https://github.com/OfficeDev/o365-actionable-messages-utilities-for-dotnet/blob/master/doc/icons/oam.ico?raw=true</PackageIconUrl>
     <PackageTags>Office O365 ActionableMessage OAM Email</PackageTags>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.2.1" />
